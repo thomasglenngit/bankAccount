@@ -12,14 +12,17 @@ BankAccount.prototype.bankAccountBalance = function() {
 $(document).ready(function() {
   $("#bank").submit(function(event) {
   event.preventDefault()
-  
-  // let name = $("#name").val();
+  let name = $("#name").val();
   let initialDeposit = parseInt($("#initialDeposit").val());
   let depositAmount = parseInt($("#depositAmount").val());
   let withdrawalAmount =  parseInt($("#withdrawalAmount").val());
   let newBankAccount = new BankAccount(initialDeposit, depositAmount, withdrawalAmount)
+
+  $(".name").text(name);
   $("#output").show();
   $("#balance").text(newBankAccount.bankAccountBalance());
   $("#bank").hide();
   });
+  
+  
 });
