@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+
+<body>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Welcome to the bank!</h1>
+      <p>Let us take your money!</p>
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+    <h1></h1>
+    <div>
+      <form id="bank">
+        <div class="form-group">
+          <label for="name">A name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="initialDeposit">Initial Deposit</label>
+          <input id="initialDeposit" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="depositAmount">Deposit Amount</label>
+          <input id="depositAmount" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="withdrawalAmount">Withdrawal Amount</label>
+          <input id="withdrawalAmount" class="form-control" type="number">
+        </div>
+
+        <button type="submit" class="btn">Show me the account balance</button>
+      </form>
+    </div>
+
+    <div id="output">
+      
+      <p>Here is your current balance: $ <span id="balance"></span></p>
+    </div>
+  </div>
+</body>
+
+</html>

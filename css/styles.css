@@ -1,0 +1,37 @@
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d.ibtimes.co.uk/en/full/1399359/bank-england.jpg");
+  height: 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.hero-text {
+  text-align: lefts;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+}
+
+
+
+
+
+.form-group {
+  width: 50%;
+}
+
+body {
+
+}
+
+#output {
+  display: none;
+
+}
