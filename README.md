@@ -1,43 +1,43 @@
-# _{Application Name}_
+# _Bank Account_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A program to check your bank statement, june 16, 2020_
 
-#### By _**{List of contributors}**_
+#### By _**Thomas Glenn and Michael Watts**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_The user of this program enters their name, initial deposit amount, deposit amount and withdrawals. When he/she/they click on the submit button it reveals their bank account balance._
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Specs  |     Input      |  Output |
+|:----------|:-------------|:------|
+| create an account |  no input | no output |
+| create user profile |   take in user input  |  name: "Joe"; initial balance: "45"; withdrawals: "5" |
+| return user balance | submit function |  $40 |
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Clone from repo_
+* _open in browser_
+* _input name and banking information_
+* _click on submit button_
+* _see how little money you have._
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+This program only works with whole numbers. We'd like to find a way to use rational numbers as well (to two decimal places....).
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Contact us at the following:
+* co-authored-by: Michael Watts <wattsjmichael@gmail.com>
+* co-Authored-by: Thomas Glenn <thomasgrantglenn@mac.com>
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_.html, .css, bootstrap3.4.1, .js, .jQuery4.1.1, Chrome DevTools, Visual Studio Code._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This program is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Michael Watts and Thomas Glenn_**

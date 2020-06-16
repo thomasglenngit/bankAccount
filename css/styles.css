@@ -10,10 +10,10 @@
 }
 
 .hero-text {
-  text-align: lefts;
+  text-align: left;
   position: absolute;
   top: 40%;
-  left: 25%;
+  left: 45%;
   transform: translate(-50%, -50%);
   color: white;
   
@@ -27,8 +27,22 @@
 .body {
 
 }
+.btn {
+  color: black;
+  
+}
+
+.btn:hover{
+  background-color: red;
+  color: white;
+}
 
 #output {
   display: none;
+  font-size: 35px;
 
+}
+
+#balance {
+  font-size: 50px;
 }

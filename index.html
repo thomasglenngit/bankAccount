@@ -12,20 +12,17 @@
 </head>
 
 <body>
+  <div class="row">
+    
   <div class="hero-image">
     <div class="hero-text">
+      <div class="col-md-6">
       <h1>Welcome to the bank!</h1>
-      <p>Let us take your money!</p>
+      <h3>Let us take your money!</h3>
 
     </div>
-  </div>
-  <br>
-  <br>
-  <br>
+    <div class="col-md-6">
 
-  <div class="container">
-    <h1></h1>
-    <div>
       <form id="bank">
         <div class="form-group">
           <label for="name">A name</label>
@@ -33,25 +30,45 @@
         </div>
         <div class="form-group">
           <label for="initialDeposit">Initial Deposit</label>
-          <input id="initialDeposit" class="form-control" type="number">
+          <input id="initialDeposit" class="form-control" type="text">
         </div>
         <div class="form-group">
           <label for="depositAmount">Deposit Amount</label>
-          <input id="depositAmount" class="form-control" type="number">
+          <input id="depositAmount" class="form-control" type="text">
         </div>
         <div class="form-group">
           <label for="withdrawalAmount">Withdrawal Amount</label>
-          <input id="withdrawalAmount" class="form-control" type="number">
+          <input id="withdrawalAmount" class="form-control" type="text">
         </div>
 
         <button type="submit" class="btn">Show me the account balance</button>
+        <br>
+        <br>
+        <br>
       </form>
     </div>
 
     <div id="output">
       
-      <p>Hello, <span class="name" ></span>. Here is your current balance: $ <span id="balance"></span></p>
+      <h3>Hello, <span class="name" ></span>. </h3>
+      <p>
+      Here is your current balance:</p>
+      <p>
+       $ <span id="balance"></span>
+      </p>
     </div>
+
+    </div>
+  </div>
+</div>
+</div>
+  <br>
+  <br>
+  <br>
+
+    
+    <div>
+      
   </div>
 </body>
 
